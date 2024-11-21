@@ -182,18 +182,21 @@ body::-webkit-scrollbar {
     }
 
     .ticket-container {
-        max-width: 160px; /* Limit width for better centering on mobile */
+        min-width: 60%;
+        max-width: 60%; /* Limit width for better centering on mobile */
         margin: 0 auto;   /* Center the container */
-        flex-direction: column; /* Stack tickets vertically on smaller screens */
+        flex-direction: row; /* Stack tickets vertically on smaller screens */
         align-items: center;
-        margin-right: 75px;
+        justify-content: center;
+        
     }
 
     .ticket {
         width: 100%;  /* Make tickets fill container width */
         font-size: 1em;
         padding: 15px;
-        margin: 10px 0; /* Add vertical spacing between tickets */
+        min-width: 100%;
+        
     }
 }
 
