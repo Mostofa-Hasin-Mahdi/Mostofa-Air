@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
     left: 0;
     width: 100vw;
     height: 48vh;
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
