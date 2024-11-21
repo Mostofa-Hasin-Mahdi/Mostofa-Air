@@ -367,7 +367,7 @@ body::-webkit-scrollbar {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -494,8 +494,8 @@ body::-webkit-scrollbar {
 
 .feature-content{
     background-color: var(--satin-sheen-gold);
-    background-image: url(../images/feature-card-bg-1.png),
-                      url(../images/feature-card-bg-2.png);
+    background-image: url(/feature-card-bg-1.png),
+                      url(feature-card-bg-2.png);
     background-repeat: no-repeat, no-repeat;
     background-size: auto, contain;
     background-position: bottom left, bottom;
