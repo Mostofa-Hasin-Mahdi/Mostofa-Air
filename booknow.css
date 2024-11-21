@@ -186,7 +186,7 @@ body::-webkit-scrollbar {
         margin: 0 auto;   /* Center the container */
         flex-direction: column; /* Stack tickets vertically on smaller screens */
         align-items: center;
-        margin-right: 65px;
+        margin-right: 75px;
     }
 
     .ticket {
